@@ -1,0 +1,36 @@
+body{
+    background-color: #6f2205;
+    color:#a36c22;
+}
+#numberOne,#numberTwo,#numberThree{
+    width:200px;
+	height:200px;
+	margin:10px;
+	padding:10px;
+    background-color: #eacc97;
+    
+}
+#numberOne,#numberTwo,#numberThree h3{
+    text-align: center;
+}
+.flexBox{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #dee8ec;
+    justify-content: center;
+}
+input{
+    text-align: center;
+}
+.flexBox #numberOne:hover{
+
+    background: darkgreen;
+}
+ .flexBox #numberTwo:hover{
+
+    background: darkgreen;
+}
+.flexBox #numberThree:hover{
+
+    background: red;
+}
